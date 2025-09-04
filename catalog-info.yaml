@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-helloworld
+  description: A simple Spring Boot application demonstrating a basic "Hello World" setup.
+  annotations:
+    github.com/project-slug: vinit-isaiah-cormaty/spring-helloworld
+    jira/project-key: SCRUM
+    jira/label: backstage-component:spring-helloworld
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
